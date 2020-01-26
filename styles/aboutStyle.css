@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 80px;
+}
+span{
+    background-color: red;
+}
+p{
+    font-size: 30px;
+}
+p:first-child{
+    text-indent: 2em;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 4em 0 0 0;
+}
+.headline{
+    margin-right: 4em;
+}
+.info{
+    width: 40%;
+}
