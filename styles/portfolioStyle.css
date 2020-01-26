@@ -1,0 +1,29 @@
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2em;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 3em;
+}
+.center{
+    grid-column: 1/2;
+    
+}
+h1{
+    font-size: 80px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.button{
+    background-color: white;
+    cursor: pointer;
+    margin: 2em 1em 0 0;
+    font-size: 40px;
+    border: none;
+    border-bottom: red 1px solid;
+}
