@@ -12,15 +12,28 @@
 }
 .left{
     margin-left: 0.5em;
-
+    
 }
 h1{
     font-size: 180px;
     font-weight: lighter;
 }
+.indent{
+    margin-left: 10%;
+
+}
+span{
+    background-color: red;
+}
 p{
+    margin-top: 2em;
     font-size: 60px;
-    /* margin-left: 0.5em; */
+    margin-left: 0.5em;
+}
+.links{
+    display: flex;
+    margin-top: 5em;
+    justify-content: center;
 }
 .button{
     background-color: #E7E7E7;
