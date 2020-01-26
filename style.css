@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #E7E7E7;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left{
+    margin-left: 0.5em;
+
+}
+h1{
+    font-size: 180px;
+    font-weight: lighter;
+}
+p{
+    font-size: 60px;
+    /* margin-left: 0.5em; */
+}
+.button{
+    background-color: #E7E7E7;
+    cursor: pointer;
+    margin: 2em 1em 0 0;
+    font-size: 40px;
+    border: none;
+    border-bottom: red 1px solid;
+}
