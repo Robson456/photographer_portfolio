@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
 }
-.container{
-    background-color: #E7E7E7;
-}
 .head{
     display: flex;
     flex-direction: row;
@@ -28,7 +25,6 @@ span{
 p{
     margin-top: 2em;
     font-size: 60px;
-    margin-left: 0.5em;
 }
 .links{
     display: flex;
@@ -36,10 +32,33 @@ p{
     justify-content: center;
 }
 .button{
-    background-color: #E7E7E7;
+    background-color: white;
     cursor: pointer;
     margin: 2em 1em 0 0;
     font-size: 40px;
     border: none;
     border-bottom: red 1px solid;
+}
+@media(max-width: 1252px){
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button{
+        margin: 0.5em;
+    }
+    .links{
+        margin-top: 0.1em;
+        flex-direction: column;
+    }
+    img{
+        display: none;
+    }
+    h1{
+        font-size: 100px;
+    }
+    p{
+        font-size: 30px;
+    }
 }

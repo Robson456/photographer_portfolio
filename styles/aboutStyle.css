@@ -12,18 +12,45 @@ p{
     font-size: 30px;
 }
 p:first-child{
-    text-indent: 2em;
+    text-indent: 1em;
 }
 
 .container{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 4em 0 0 0;
+    margin: 4em 0 0 1em;
 }
 .headline{
     margin-right: 4em;
 }
-.info{
-    width: 40%;
+.button{
+    background-color: white;
+    cursor: pointer;
+    margin: 2em 1em 0 0;
+    font-size: 40px;
+    border: none;
+    border-bottom: red 1px solid;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2em;
+}
+@media(max-width: 1252px){
+    .container{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 1em;
+    }
+    .info{
+        margin-top: 1em;
+    }
+    h1{
+        font-size: 28px;
+    }
+    p{
+        font-size: 16px;
+    }
 }
